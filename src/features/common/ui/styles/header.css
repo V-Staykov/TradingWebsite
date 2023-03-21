@@ -1,0 +1,22 @@
+
+padding: 20px 100px;
+
+
+.Menu {
+    /* gap: 50px; */
+}
+
+.Link {
+    padding: 10px 30px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.Link:hover {
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+.Link.Active {
+    color: var(--secondary-color);
+    background-color: var(--hover-color);
+}

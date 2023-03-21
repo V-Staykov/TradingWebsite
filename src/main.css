@@ -1,0 +1,49 @@
+:root {
+    --main-color: #000;
+    --secondary-color: #888;
+    --main-font-color: var(--main-color);
+    --hover-color: #DDD;
+}
+
+a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+.FullWidth {
+    width: 100%;
+}
+
+.FlexGrow {
+    flex-grow: 1;
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.JustifyStart {
+    justify-content: flex-start;
+}
+
+.JustifyEnd {
+    justify-content: flex-end;
+}
+
+.JustifyBetween {
+    justify-content: space-between;
+}
+
+.Grid {
+    display: grid;
+}
+
+.Pointer {
+    cursor: pointer;
+}
